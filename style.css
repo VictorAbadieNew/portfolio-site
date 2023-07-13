@@ -1,27 +1,36 @@
+html {
+  background-color: aliceblue;
+}
+
 body {
-    padding: 0;
-margin: 0;}
+margin-left: 22vw;
+margin-right: 22vw;}
 
 h1,h2 {
   font-weight: 300;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
 }
 
 h1 {
   font-size: 2em;
+  color: blueviolet ;
+  text-shadow: 2px 2px 1px yellow;
 }
 
 h2 {
   font-size: 1.5em;
+  color: blueviolet;
+  text-shadow: 2px 2px 1px yellow;
 }
 
 .quote {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
   color: blueviolet;
-  text-shadow: 1px 1px 2px orange;
-  font-size: 3em;
+  text-shadow: 4px 4px 50px black;
+  font-size: 2.5em;
   text-align: center;
   margin-top: 3em;
 }
@@ -30,7 +39,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blanchedalmond;
+    background-color: blueviolet;
     padding: 1em;
     box-shadow: 0 2.5px 4px;
 }
@@ -41,9 +50,20 @@ header {
 
 .HAPlinks a {
   text-decoration: none;
-  color: black;
+  color: gold;
 }
 
 .name {
   font-size: 2em;
+  color: gold;
+}
+
+main {
+  background-color: white;
+  display: block;
+  box-shadow: 0 0 12px -2px;
+  min-height: 100vh;
+  padding-top: .5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
