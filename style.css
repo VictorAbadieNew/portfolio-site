@@ -42,6 +42,7 @@ header {
     background-color: blueviolet;
     padding: 1em;
     box-shadow: 0 2.5px 4px;
+    
 }
 
 .HAPlinks {
@@ -66,4 +67,18 @@ main {
   padding-top: .5vw;
   padding-left: 1vw;
   padding-right: 1vw;
+}
+
+.VibrantArt {
+  display: inline-block;
+  width: 10vw;
+  height: 10vw;
+  padding: 30px;
+}
+
+.Albums {
+  display: inline-block;
+  width: 10vw;
+  height: 10vw;
+  padding: 30px;
 }
